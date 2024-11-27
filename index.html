@@ -5,31 +5,30 @@
 <style>
 * {box-sizing: border-box; margin: 0; padding: 0;}
 body {font-family: Arial, sans-serif; background-color: #e2eae5; }
-@media only screen and (max-width: 360px) {
-body {font-size:1em; color: red; }}
+@media only screen and (max-width: 420px) {
+body {font-size:2vw; color: red; }}
 
-.url-form {
-width: 100%;
-max-width: 800px; 
-padding: 5px;
-display: flex;
-flex-direction: column;
-}
+.url-form {width: 100%;  max-width: 800px;  padding: 5px; display: flex; flex-direction: column;}
+  
 h3 {color: //#0c04ff; text-align: center ; padding-top: 30px;} 
+  
 .input-group { display: flex;  width: 100%;}
-.input-group input {
-flex: 1;
-padding: 14px;
-border: 1px solid #ccc;
+  
+.input-group input {flex: 1;  padding: 14px;  border: 1px solid #ccc;
 border-radius: 5px 0 0 5px; /* Rounded corners for the left side */
 outline: none; /* Remove default outline */
 }
+
 .input-group input:focus { border-color: #5bc0de; }
 .input-group button {padding: 10px;  background-color: #007BFF;  color: #fff;   border: none;  
 border-radius: 0 5px 5px 0; /* Rounded corners for the right side */
 cursor: pointer;}
+
 .input-group button:hover {background-color: #0056b3; /* Darker blue on hover */}
-video {object-fit:fill; width:800px; height:404px; border-radius: 5px; border: 1px solid #5bc0de; z-index:1; margin: 5px;} 
+
+video {object-fit:fill; width:800px; height:404px; border-radius: 5px; border: 1px solid #5bc0de;
+z-index:1; margin: 5px;} 
+
 @media only screen and (max-width:980px) {video{width:98%;height:auto;}} 
 </style></head><body><h3> stream videos from Google drive</h3><br>
 <center><form class="url-form">
